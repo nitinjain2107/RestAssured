@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.66 s <<< FAILURE! - in TestSuite
+addBook(AutomationAPI.RestAssured.DynamicJson)  Time elapsed: 0.556 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void AutomationAPI.RestAssured.DynamicJson.addBook(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: addBook([java.lang.String arg0, java.lang.String arg1])
+Arguments: [(java.lang.String) Et quia eos facilis tempore.,(java.lang.Integer) 6147]
+

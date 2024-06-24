@@ -26,9 +26,9 @@ public void addBook(String isbn,String aisle) {
 }
 @DataProvider(name="Book")
 public Object[][] getData() {
-	Faker faker = new Faker();
 	
-	return new Object[][] {{faker.lorem().sentence(),faker.number().numberBetween(1, 10000)},{faker.lorem().sentence(),faker.number().numberBetween(1, 10000)},{faker.lorem().sentence(),faker.number().numberBetween(1, 10000)}};
+	
+	return new Object[][] {{"abcdd","8988"},{"cfdg","1243"},{"ghdt","3456"}};
 	
 	
 }
