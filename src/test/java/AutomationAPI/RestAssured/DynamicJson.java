@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.*;
 
 public class DynamicJson {
 
-@Test(dataProvider="Book")
+@Test(dataProvider="Book",groups="smoke")
 public void addBook(String isbn,String aisle) {
 	RestAssured.baseURI="http://216.10.245.166";
 	String response= given().header("Content-Type","application/json").body(Payload.BookData(isbn,aisle))

@@ -1,67 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-24T16:13:49 IST" name="Suite" finished-at="2024-06-24T16:13:56 IST" duration-ms="6466">
+  <suite started-at="2024-06-24T18:05:01 IST" name="Default suite" finished-at="2024-06-24T18:05:06 IST" duration-ms="4747">
     <groups>
+      <group name="smoke">
+        <method signature="addNewPlaceAPI.addNewPlace()[pri:0, instance:AutomationAPI.RestAssured.addNewPlaceAPI@59474f18]" name="addNewPlace" class="AutomationAPI.RestAssured.addNewPlaceAPI"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-06-24T16:13:49 IST" name="Test" finished-at="2024-06-24T16:13:56 IST" duration-ms="6466">
-      <class name="AutomationAPI.RestAssured.DynamicJson">
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:AutomationAPI.RestAssured.DynamicJson@36fc695d]" started-at="2024-06-24T16:13:49 IST" name="addBook" data-provider="Book" finished-at="2024-06-24T16:13:53 IST" duration-ms="3940" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcdd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[8988]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:AutomationAPI.RestAssured.DynamicJson@36fc695d]" started-at="2024-06-24T16:13:53 IST" name="addBook" data-provider="Book" finished-at="2024-06-24T16:13:53 IST" duration-ms="220" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[cfdg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1243]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:AutomationAPI.RestAssured.DynamicJson@36fc695d]" started-at="2024-06-24T16:13:53 IST" name="addBook" data-provider="Book" finished-at="2024-06-24T16:13:54 IST" duration-ms="192" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ghdt]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-      </class> <!-- AutomationAPI.RestAssured.DynamicJson -->
+    <test started-at="2024-06-24T18:05:01 IST" name="Default test" finished-at="2024-06-24T18:05:06 IST" duration-ms="4747">
       <class name="AutomationAPI.RestAssured.addNewPlaceAPI">
-        <test-method signature="addNewPlace()[pri:0, instance:AutomationAPI.RestAssured.addNewPlaceAPI@7c7a06ec]" started-at="2024-06-24T16:13:54 IST" name="addNewPlace" finished-at="2024-06-24T16:13:56 IST" duration-ms="2011" status="PASS">
+        <test-method signature="addNewPlace()[pri:0, instance:AutomationAPI.RestAssured.addNewPlaceAPI@59474f18]" started-at="2024-06-24T18:05:01 IST" name="addNewPlace" finished-at="2024-06-24T18:05:06 IST" duration-ms="4659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPlace -->
       </class> <!-- AutomationAPI.RestAssured.addNewPlaceAPI -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
