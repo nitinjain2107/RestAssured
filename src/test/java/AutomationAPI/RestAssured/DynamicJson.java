@@ -28,7 +28,7 @@ public void addBook(String isbn,String aisle) {
 public Object[][] getData() {
 	Faker faker = new Faker();
 	
-	return new Object[][] {{faker.lorem().sentence(),"faker.number().numberBetween(1, 10000)"},{"faker.lorem().sentence()","faker.number().numberBetween(1, 10000)"},{"faker.lorem().sentence()","faker.number().numberBetween(1, 10000)"}};
+	return new Object[][] {{faker.lorem().sentence(),faker.number().numberBetween(1, 10000)},{faker.lorem().sentence(),faker.number().numberBetween(1, 10000)},{faker.lorem().sentence(),faker.number().numberBetween(1, 10000)}};
 	
 	
 }
