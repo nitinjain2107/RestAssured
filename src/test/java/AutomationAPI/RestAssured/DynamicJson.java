@@ -25,7 +25,7 @@ public void addBook(String isbn,String aisle) {
 }
 @DataProvider(name="Book")
 public Object[][] getData() {
-	return new Object[][] {{"tyur","1238"},{"yrts","2325"},{"isbn","7800"}};
+	return new Object[][] {{"abcd","9876"},{"utyr","8598"},{"idbd","7890"}};
 	
 	
 }
