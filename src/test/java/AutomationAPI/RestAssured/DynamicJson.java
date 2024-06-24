@@ -2,6 +2,7 @@ package AutomationAPI.RestAssured;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import com.github.javafaker.Faker;
 
 import files.Payload;
 import io.restassured.RestAssured;
@@ -25,7 +26,9 @@ public void addBook(String isbn,String aisle) {
 }
 @DataProvider(name="Book")
 public Object[][] getData() {
-	return new Object[][] {{"abcd","9876"},{"utyr","8598"},{"idbd","7890"}};
+	Faker faker = new Faker();
+	
+	return new Object[][] {{faker.lorem().sentence(),"faker.number().numberBetween(1, 10000)"},{"faker.lorem().sentence()","faker.number().numberBetween(1, 10000)"},{"faker.lorem().sentence()","faker.number().numberBetween(1, 10000)"}};
 	
 	
 }
