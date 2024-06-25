@@ -77,7 +77,8 @@
           <version>2.22.1</version>
           <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                    <suiteXmlFile>Smoketestng.xml</suiteXmlFile>
+                  <suiteXmlFile>Regressiontestng.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
